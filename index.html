@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>Product Detail Website</title>
+	<link rel="stylesheet" href="./public/css/app.css">
+	<!-- <script src="es6-shim.min.js"></script> -->
+	<!-- <script src="babel.min.js"></script> -->
+</head>
+
+<body>
+
+	<!-- page navigation -->
+	<header class="page-navigation">
+		<div class="container">
+			<a href="index.html" class="logo title">Product Sale</a>
+			<nav class="nav">
+				<ul>
+					<li>Product Menu</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	
+	<!-- main content -->
+	<div class="container">
+		<section id="product-list" class="row"></section>
+
+		<!-- Image carousal modal -->
+		<section id="product-image-list" class="product-image-list hidden">
+			<img id="main-image" src="" alt="">			
+			<div class="images">
+				<div class="image-wrap"></div>
+			</div>	
+		</section>
+	</div>
+
+	<!-- page footer -->
+	<footer>
+		<hr>
+		<div class="container">
+			<p>Copyright content</p>
+		</div>
+	</footer>
+	<div class="overlay hidden" onclick="closeCarousal()"></div>
+
+	<script src="./public/components/product-summary.js"></script>
+	<script src="./public/main.js"></script>
+
+</body>
+
+</html>

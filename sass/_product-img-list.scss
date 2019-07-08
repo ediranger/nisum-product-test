@@ -1,0 +1,37 @@
+.product-image-list {
+    position: fixed;
+    width: 40%;
+    z-index: 101;
+    max-width: 550px;
+    
+    padding: 20px;
+    left: 30%;
+    top: 10%;
+    background-color: #333;
+
+
+    .images {
+        overflow: hidden;
+        overflow-x: auto;
+        margin-top: 20px;
+
+        .image-wrap {
+            width: 850px;
+        }
+    }
+
+    .images img {
+        height: 100%;
+        width: 80px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .product-image-list {
+        width: 94%;
+        left: 3%;
+        top: 12%;
+    }
+}

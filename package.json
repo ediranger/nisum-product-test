@@ -1,0 +1,25 @@
+{
+  "name": "nisum-product-test",
+  "version": "1.0.0",
+  "description": "Technical test app implemented for Nisum",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run babeltask & npm run sass",
+    "babeltask": "babel app -d public",
+    "sass": "node-sass sass -o public/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ediranger/nisum-product-test.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.0",
+    "@babel/preset-env": "^7.5.0",
+    "bootstrap": "^4.3.1",
+    "grunt": "^1.0.4",
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.19.1"
+  }
+}
